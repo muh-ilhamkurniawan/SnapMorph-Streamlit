@@ -71,7 +71,7 @@ def change_bg_color_page():
 # Main app structure
 st.sidebar.title("App Navigation")
 page = st.sidebar.radio("Go to", ["Remove Background", "Change Background Color"])
-st.title("Custom Background")
+st.title("SnapMorph")
 if page == "Remove Background":
     remove_bg_page()
 elif page == "Change Background Color":
